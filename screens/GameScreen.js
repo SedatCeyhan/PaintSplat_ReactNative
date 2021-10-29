@@ -169,7 +169,7 @@ const GameScreen = ({ navigation }) => {
     // Alert.alert(title, message, [
     //   {
     //     text: "Go back home!",
-    //     onPress: () => navigation.navigate("Paintsplat Project (ASWE)"),
+    //     onPress: () => navigation.navigate("Paintsplat Project (ASE)"),
     //   },
     //   // {
     //   //   text: "Cancel",

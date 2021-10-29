@@ -67,8 +67,8 @@ export default function App() {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName='Paintsplat Project (ASWE)' screenOptions={globalScreenOptions}>
-          <Stack.Screen name="Paintsplat Project (ASWE)" component={HomeScreen} />
+        <Stack.Navigator initialRouteName='Paintsplat Project (ASE)' screenOptions={globalScreenOptions}>
+          <Stack.Screen name="Paintsplat Project (ASE)" component={HomeScreen} />
           <Stack.Screen name="Create Game" component={CreateGameScreen} />
           <Stack.Screen name="Game" component={GameScreen}/>
           <Stack.Screen name="Game Scores" component={GameScore}/>

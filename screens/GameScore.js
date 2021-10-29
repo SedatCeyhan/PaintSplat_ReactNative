@@ -25,7 +25,7 @@ const GameScore = ({navigation, route}) => {
 
             </View>
             <View style={{justifyContent: 'center', alignItems:'center', marginTop: 60}}>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Paintsplat Project (ASWE)")}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Paintsplat Project (ASE)")}>
                     <Text style={{color:'white', fontSize: 20, fontWeight: 'bold'}}>Return Home</Text>
                 </TouchableOpacity>
                 {/* <TouchableOpacity>

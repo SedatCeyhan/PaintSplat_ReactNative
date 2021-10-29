@@ -73,7 +73,7 @@ const HomeScreen = ({ navigation }) => {
     <SafeAreaView style={{ backgroundColor: "white", flex: 1 }}>
       <ScrollView>
         <View style={styles.titleContainer}>
-          <Text style={styles.title}>PaintSplat (ASWE)</Text>
+          <Text style={styles.title}>PaintSplat</Text>
         </View>
         <View style={styles.imageContainer}>
           <Image

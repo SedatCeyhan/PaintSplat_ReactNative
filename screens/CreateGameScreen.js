@@ -58,9 +58,10 @@ const CreateGameScreen = ({ navigation }) => {
     <View>
       <View style={styles.roomCodeContainer}>
         <Text style={styles.textRoomCodeTitle}>Your Random Room Code:</Text>
-        <TouchableOpacity onPress={() => navigation.navigate("Game")}>
+        <TouchableOpacity style={{backgroundColor:'#bee0ec', marginTop: 30, padding: 20, borderRadius: 99}} onPress={() => navigation.navigate("Game")}>
           <Text style={styles.textRoomCode}>{randomCode}</Text>
         </TouchableOpacity>
+        <Text style={{marginTop: 15, fontStyle: 'italic'}}>Or press the code for Single Player</Text>
         <View
           style={[
             tw`w-full h-96`,
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
   },
 
   textRoomCode: {
-    marginTop: 20,
+    
     fontSize: 20,
     fontStyle: "italic",
     color: "red",
