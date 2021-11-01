@@ -130,7 +130,7 @@ const GameScreen = ({ navigation }) => {
             stopGame("LOSE", redTiles_, blueTiles_);
             roomSnapshot.off("value");
             return;
-          } else if (blueTiles > 8) {
+          } else if (blueTiles_ > 8) {
             console.log("You Win!");
             // await database.ref("/" + roomNum + "/winner").set(playerName);
             stopGame("WIN", redTiles_, blueTiles_);
